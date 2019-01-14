@@ -1,0 +1,69 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Condensed', sans-serif;
+*/
+/* ---- General CSS ---- */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-around; */
+    overflow: hidden;
+    background-color: whitesmoke;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Raleway',  'Open Sans', sans-serif;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: .75rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+/* ---- Section Syling ---- */
+
+.overview {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overview h2 {
+    position: absolute;
+    top: 30vh;
+
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.overview h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
+    font-weight: 550;
+}
+.overview p {
+    position: absolute;
+    bottom: 32.5vh;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: .875rem;
+}
+
+.hello {
+    height: auto;
+}
