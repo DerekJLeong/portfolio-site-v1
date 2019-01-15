@@ -103,6 +103,8 @@ ul, li {
 
 .whatICanDo__title {
     text-align: center;
+    position: relative;
+    top: 8px;
     font-family: 'Inter UI', sans-serif;
 }
 .whatICanDo {
