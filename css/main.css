@@ -133,7 +133,7 @@ ul, li {
     padding-bottom: 1rem;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 250;
 }
 .des__content {
@@ -160,7 +160,7 @@ ul, li {
     padding-bottom: 1rem;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 250;
 }
 .dev__content {
@@ -183,7 +183,7 @@ ul, li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 5s ease-out;
+    transition: 5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .gear1 {
     width: 40px;
