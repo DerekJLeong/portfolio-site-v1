@@ -68,10 +68,10 @@ ul, li {
 
 .hello__title {
     position: relative;
-    top: 4rem;
-    left: 2rem;
+    top: 8vh;
+    left: 6vw;
     font-family: 'Inter UI', sans-serif;
-    font-size: 8rem;
+    font-size: 13vw;
     font-weight: 100%;
 }
 .hello {
@@ -122,6 +122,8 @@ ul, li {
     align-content: center;
     justify-content: space-evenly;
     padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .des__title {
     width: 100%;
@@ -147,6 +149,8 @@ ul, li {
     align-content: center;
     justify-content: space-evenly;
     padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .dev__title {
     width: 100%;
