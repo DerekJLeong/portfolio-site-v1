@@ -183,7 +183,7 @@ ul, li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: 5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: 3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .gear1 {
     width: 40px;
