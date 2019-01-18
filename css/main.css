@@ -37,7 +37,7 @@ ul, li {
 /* ---- Section Syling ---- */
 
 .overview {
-    height: 72.5vh;
+    min-height: 92vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,14 +48,14 @@ ul, li {
     top: 25vh;
 
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 8px;
-    font-size: 1.3rem;
+    letter-spacing: 5px;
+    font-size: 2vh;
     font-weight: 150;
 }
 .overview h1 {
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 5vw;
+    font-size: 6vw;
     font-weight: 575;
 }
 .overview p {
@@ -66,17 +66,18 @@ ul, li {
 }
 
 .hello__title {
-    position: relative;
-    top: 8vh;
-    left: 6vw;
+    position: absolute;
+    top: 80vh;
+    left: 5vw;
     font-family: 'Inter UI', sans-serif;
-    font-size: 15vw;
+    font-size: 15vh;
     font-weight: 800;
 }
 .hello {
-    min-height: 250px;
+    min-height: 150px;
     width: 100%;
     /* margin: 3vh 5vw; */
+    padding: 2rem 1rem 1rem 1rem;
     background-color: #f0a5a5;
     display: flex;
     flex-direction: column;
@@ -91,6 +92,7 @@ ul, li {
     padding: 1rem;
 }
 .hello__top p {
+    max-width: 75%;
     padding: 1rem;
     font-family: 'Inter UI', sans-serif;
     font-weight: 500;
@@ -135,7 +137,7 @@ ul, li {
 .des__content, .des__skills {
     padding: 5px;
     font-family: 'Inter UI', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 .des__skillsContainer {
     width: 100%;
@@ -171,7 +173,7 @@ ul, li {
 .dev__content, .dev__skills {
     padding: 5px;
     font-family: 'Inter UI', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 .dev__content {
     max-width: 60%;
