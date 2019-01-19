@@ -217,6 +217,12 @@ ul, li {
     margin: 0 0 14px -2px;
 }
 
+.projects__title {
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 5vw
+}
 .projects {
     display: flex;
     flex-flow: column wrap;
@@ -227,5 +233,5 @@ ul, li {
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 25vh;
+    grid-template-rows: 20vh;
 }
