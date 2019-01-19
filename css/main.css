@@ -216,3 +216,16 @@ ul, li {
     height: 25px;
     margin: 0 0 14px -2px;
 }
+
+.projects {
+    display: flex;
+    flex-flow: column wrap;
+}
+.projects__card {
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 25vh;
+}
