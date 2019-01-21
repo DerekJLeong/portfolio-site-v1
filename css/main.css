@@ -232,6 +232,9 @@ ul, li {
     grid-column-end: 4;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 20vh;
+}
+.card__img {
+    width: 20vw;
 }
