@@ -17,7 +17,7 @@ main {
     overflow: hidden;
     background-color: whitesmoke;
     font-family: 'EB Garamond', serif;
-    font-family: 'Raleway',  'Open Sans', 'Inter UI', sans-serif;;
+    font-family: 'Raleway', 'Inter UI', sans-serif;;
 }
 
 footer {
@@ -37,38 +37,25 @@ ul, li {
 /* ---- Section Syling ---- */
 
 .overview {
-    min-height: 92vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'EB Garamond', serif;
 }
 .overview h2 {
-    position: absolute;
-    top: 25vh;
-
-    font-family: 'Raleway', sans-serif;
-    letter-spacing: 5px;
-    font-size: 2vh;
-    font-weight: 150;
+    padding: 2rem 1rem;
+    font-size: 2.2vh;
+    font-weight: normal;
 }
 .overview h1 {
-    text-align: center;
-    font-family: 'EB Garamond', serif;
+    padding: 2rem 1rem;
     font-size: 6vw;
-    font-weight: 575;
-}
-.overview p {
-    position: absolute;
-    bottom: 32.5vh;
-    font-family: 'Raleway', sans-serif;
-    font-size: .8rem;
+    font-weight: normal;
 }
 
 .hello__title {
-    position: absolute;
-    top: 80vh;
-    left: 5vw;
     font-family: 'Inter UI', sans-serif;
     font-size: 15vh;
     font-weight: 800;
@@ -76,9 +63,8 @@ ul, li {
 .hello {
     min-height: 150px;
     width: 100%;
-    /* margin: 3vh 5vw; */
     padding: 2rem 1rem 1rem 1rem;
-    background-color: #f0a5a5;
+    background-image: linear-gradient(#FF7675 , #D16160);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -117,7 +103,7 @@ ul, li {
     /* margin: 5%; */
 }
 .whatICanDo__des {
-    background-color: #69A9D2;
+    background-image: linear-gradient(#00B894 , #00977A);
     color: whitesmoke;
     font-family: 'EB Garamond', serif;
     display: flex;
@@ -154,7 +140,7 @@ ul, li {
     align-self: center;
 }
 .whatICanDo__dev {
-    background-color: #23645A;
+    background-image: linear-gradient(#586273 , #344055);
     color: whitesmoke;
     display: flex;
     flex-wrap: wrap;
@@ -198,7 +184,7 @@ ul, li {
     justify-content: center;
     align-items: center;
     margin: 5px;
-    background-color: #1D524A;
+    background-color: #2B3546;
 }
 .gear {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODk2IiBoZWlnaHQ9IjEwMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+IDxnPiAgPHRpdGxlPmJhY2tncm91bmQ8L3RpdGxlPiAgPHJlY3QgZmlsbD0ibm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjQwMiIgd2lkdGg9IjU4MiIgeT0iLTEiIHg9Ii0xIi8+IDwvZz4gPGc+ICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+ICA8cGF0aCBmaWxsPSIjYWFhYWFhIiBpZD0ic3ZnXzEiIGQ9Im00NDcuOTM4LDM1MGMtODkuNDA3LDAgLTE2MS45MzgsNzIuNTMxIC0xNjEuOTM4LDE2MmMwLDg5LjM3NSA3Mi41MzEsMTYyLjA2MiAxNjEuOTM4LDE2Mi4wNjJjODkuNDM4LDAgMTYxLjQzOCwtNzIuNjg4IDE2MS40MzgsLTE2Mi4wNjJjLTAuMDAxLC04OS40NjkgLTcyLjAwMSwtMTYyIC0xNjEuNDM4LC0xNjJ6bTMyNC42ODcsMjU1LjA2MmwtMjkuMTg4LDcwLjMxMmw1Mi4wNjIsMTAyLjI1bDYuODc1LDEzLjVsLTcyLjE4OCw3Mi4xODhsLTExOC40MzYsLTU1LjkzN2wtNzAuMzEyLDI4Ljg3NWwtMzUuNjg4LDEwOS4yNWwtNC41NjIsMTQuNWwtMTAyLjAzMiwwbC00NC4xNTYsLTEyMy4zMTJsLTcwLjMxMiwtMjlsLTEwMi40MDQsNTEuOTM4bC0xMy41LDYuNzVsLTcyLjE1NiwtNzIuMTI1bDU1Ljg3NSwtMTE4LjVsLTI4Ljk2OSwtNzAuMjVsLTEwOS4wNjUsLTM1LjYyNmwtMTQuNDY5LC00LjY4N2wwLC0xMDEuOTY5bDEyMy40MDYsLTQ0LjIxOWwyOC45NjksLTcwLjE4OGwtNTEuOTA2LC0xMDIuNDY5bC02Ljg0NCwtMTMuNDM4bDcyLjA2MiwtNzIuMDYybDExOC41OTQsNTUuODQ0bDcwLjIxOSwtMjkuMDMxbDM1LjY1NiwtMTA5LjE4OGw0LjU5NCwtMTQuNDY4bDEwMiwwbDQ0LjE4OCwxMjMuNDY5bDcwLjEyNSwyOS4wMzFsMTAyLjQzNywtNTEuOTY5bDEzLjYyNSwtNi44NDRsNzIuMTI1LDcyLjA2MmwtNTUuODc1LDExOC40MDZsMjguODc1LDcwLjM0NWwxMDkuMzc1LDM1LjY1NmwxNC4zNzUsNC41OTRsMCwxMDEuOTM4bC0xMjMuMzc1LDQ0LjM3NHoiLz4gPC9nPjwvc3ZnPg==);
@@ -234,6 +220,15 @@ ul, li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 20vh;
+}
+.p1 {
+    background-image: linear-gradient(#FF7675 , #D16160);
+}
+.p2 {
+    background-image: linear-gradient(#8C7AB5 , #736495);
+}
+.p3 {
+    background-image: linear-gradient(#6279B8 , #516497);
 }
 .card__img {
     width: 20vw;
