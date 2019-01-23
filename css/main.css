@@ -59,7 +59,7 @@ ul, li {
     font-family: 'Inter UI', sans-serif;
     font-size: 6.2vw;
     font-weight: bold;
-    padding: 1rem 10vw;
+    padding: 2rem 10vw;
 }
 .hello {
     min-height: 150px;
@@ -74,6 +74,7 @@ ul, li {
     max-width: 75%;
     padding: 1rem;
     font-family: 'EB Garamond', serif;
+    font-size: 1.1rem;
     font-weight: 550;
 }
 .hello img {
@@ -82,7 +83,7 @@ ul, li {
 }
 
 .whatICanDo__title {
-    padding: 1rem 10vw;
+    padding: 2rem 10vw;
     font-family: 'Inter UI', sans-serif;
     font-weight: bold;
     font-size: 6.2vw;
@@ -92,43 +93,37 @@ ul, li {
     width: 100%;
     display: flex;
     flex-direction: column;
-    /* margin: 5%; */
 }
 .whatICanDo__des {
     background-image: linear-gradient(#00B894 , #00977A);
     color: whitesmoke;
     font-family: 'EB Garamond', serif;
+    font-size: .9rem;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
     padding: 1rem;
 }
-.des__title {
+.whatICanDo__des h3 {
     width: 100%;
-    padding-bottom: 2rem;
+    padding: 1rem 5vw 1rem;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 2.2rem;
-    font-weight: 250;
+    font-size: 1.1rem;
+    font-weight: normal;
 }
-.des__content, .des__skills {
-    padding: 5px;
+.des__content{
+    padding: 1rem;
     font-family: 'Inter UI', sans-serif;
-    font-weight: 400;
-}
-.des__skillsContainer {
-    width: 100%;
-    padding: 2rem 1rem 1rem 1rem;
-    display: inline-flex;
-    justify-content: center;
+    font-weight: normal;
 }
 .des__skills {
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 1.4rem;
+    /* font-size: 4vw; */
 }
-.whatICanDo img {
+.whatICanDo__des img {
     align-self: center;
 }
 .whatICanDo__dev {
