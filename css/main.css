@@ -59,14 +59,15 @@ ul, li {
 /* Greeting */
 .hello__title {
     font-family: 'Inter UI', sans-serif;
-    font-size: 10vw;
+    font-size: 9.65vw;
     font-weight: bold;
-    text-align: center;
-    /* padding: 1rem 10vw; */
+    text-align: left;
+    padding-left: 1rem;
 }
 .hello {
     margin: 1rem;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: linear-gradient(#FF7675 , #D16160);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -75,9 +76,11 @@ ul, li {
 .hello p {
     grid-column: 1 / 4;
     padding: 1rem;
+    text-align: center;
     font-family: 'EB Garamond', serif;
     font-size: 1.2rem;
     font-weight: 550;
+    line-height: 1.4rem;
 }
 .hello img {
     grid-column: 1 / 4;
@@ -89,13 +92,13 @@ ul, li {
 
 /* What I can do */
 .whatICanDo__title {
-    padding: 2rem 10vw;
     font-family: 'Inter UI', sans-serif;
     font-weight: bold;
-    font-size: 6.2vw;
+    font-size: 7.1vw;
+    text-align: left;
+    padding-left: 1rem;
 }
 .whatICanDo {
-    min-height: 200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -103,14 +106,16 @@ ul, li {
 /* Designer Section */
 .whatICanDo__des {
     margin: 1rem;
+    margin-bottom: 0; 
     border-radius: 10px;
-    background-image: linear-gradient(#00B894 , #00977A);
-    color: whitesmoke;
-    font-family: 'EB Garamond', serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    font-family: 'EB Garamond', serif;
+    background-image: linear-gradient(#00B894 , #00977A);
+    color: whitesmoke;
 }
 .whatICanDo__des h3 {
     grid-column: 1 / 4;
@@ -120,7 +125,7 @@ ul, li {
     font-weight: normal;
 }
 .des__content{
-    grid-column: 2 / 4;
+    grid-column: 1 / 4;
     padding: 1rem;
     font-family: 'Inter UI', sans-serif;
     font-weight: normal;
@@ -129,14 +134,15 @@ ul, li {
     text-align: center;
 }
 .whatICanDo__des img {
+    grid-column: 1 / 4;
     align-self: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 /* Developer Section */
 .whatICanDo__dev {
     margin: 1rem;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: linear-gradient(#586273 , #344055);
     color: whitesmoke;
     padding: 1rem;
