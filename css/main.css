@@ -77,7 +77,7 @@ ul, li {
 .hello p {
     grid-column: 1 / 4;
     padding: 1rem 2rem 0 2rem;
-    /* text-align: center; */
+    text-align: center;
     font-family: 'EB Garamond', serif;
     font-size: 1.2rem;
     font-weight: 550;
@@ -134,13 +134,13 @@ ul, li {
     padding: 1rem;
     padding-bottom: 0;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: normal;
 }
 .des__content{
     grid-column: 1 / 4;
     padding: 1rem 2rem 0 2rem;
-    /* text-align: center; */
+    text-align: center;
     font-family: 'Inter UI', sans-serif;
     font-weight: normal;
 }
@@ -164,7 +164,7 @@ ul, li {
     padding-bottom: 0;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: normal;
 }
 .dev__content {
@@ -172,6 +172,7 @@ ul, li {
     padding: 1rem 2rem 0 2rem;
     font-family: 'Inter UI', sans-serif;
     font-weight: normal;
+    text-align: center;
 }
 .gearContainer {
     grid-column: 1 / 4;

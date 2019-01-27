@@ -22,4 +22,6 @@ function slideShow() {
   if (curIndex == imgArray.length) { curIndex = 0; }
   setTimeout(slideShow, imgDuration);
 }
-slideShow();
+window.addEventListener("load", function(event) {
+  slideShow();
+});
