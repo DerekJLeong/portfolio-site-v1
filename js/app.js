@@ -44,3 +44,13 @@ document.getElementById("des__listener").addEventListener("mouseover", mouseOver
 document.getElementById("des__listener").addEventListener("mouseout", mouseOutDes);
 document.getElementById("dev__listener").addEventListener("mouseover", mouseOverDev);
 document.getElementById("dev__listener").addEventListener("mouseout", mouseOutDev);
+
+//Animating Hello Icon
+function mouseOverHello(id) {
+  document.getElementById("helloIcon").style.animation = 'fliperino .35s';
+}
+function mouseOutHello(id) {
+  document.getElementById("helloIcon").style.animation = 'none';
+}
+document.getElementById("hello").addEventListener("mouseover", mouseOverHello);
+document.getElementById("hello").addEventListener("mouseout", mouseOutHello);
