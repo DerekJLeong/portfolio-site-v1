@@ -137,12 +137,13 @@ ul, li {
     font-size: 1.7rem;
     font-weight: normal;
 }
-.des__content{
+#des__content{
     grid-column: 1 / 4;
     padding: 1rem 2rem 0 2rem;
     text-align: center;
     font-family: 'Inter UI', sans-serif;
     font-weight: normal;
+    display: none;
 }
 /* Developer Section */
 .whatICanDo__dev {
@@ -167,7 +168,8 @@ ul, li {
     font-size: 1.7rem;
     font-weight: normal;
 }
-.dev__content {
+#dev__content {
+    display: none;
     grid-column: 1 / 4;
     padding: 1rem 2rem 0 2rem;
     font-family: 'Inter UI', sans-serif;

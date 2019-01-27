@@ -25,3 +25,22 @@ function slideShow() {
 window.addEventListener("load", function(event) {
   slideShow();
 });
+
+// For Design and Develop content click functionality
+function mouseOverDes(id) {
+  document.getElementById("des__content").style.display = "block";
+}
+function mouseOutDes(id) {
+  document.getElementById("des__content").style.display = "none";
+}
+function mouseOverDev(id) {
+  document.getElementById("dev__content").style.display = "block";
+}
+function mouseOutDev(id) {
+  document.getElementById("dev__content").style.display = "none";
+}
+
+document.getElementById("des__listener").addEventListener("mouseover", mouseOverDes);
+document.getElementById("des__listener").addEventListener("mouseout", mouseOutDes);
+document.getElementById("dev__listener").addEventListener("mouseover", mouseOverDev);
+document.getElementById("dev__listener").addEventListener("mouseout", mouseOutDev);
