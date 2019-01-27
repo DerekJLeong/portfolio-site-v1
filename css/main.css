@@ -156,6 +156,7 @@ ul, li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    align-items: center;
 }
 .whatICanDo__dev h3{
     grid-column: 1 / 4;
@@ -174,15 +175,12 @@ ul, li {
 }
 .gearContainer {
     grid-column: 1 / 4;
-    position: relative;
-    left: 7.5vw;
     z-index: 0;
     max-height: 25px;
-    width: 200px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
     background-color: #2B3546;
 }
 .gear {
