@@ -227,12 +227,48 @@ ul, li {
 .projects {
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient()
+}
+.card__header {
+    height: 1.1rem;
+    width: calc(100vw - 2rem);
+    border-radius: 10px 10px 0 0;
+    margin: 0 1rem;
+    margin-top: 2rem;
+    background-image: linear-gradient(#D1D4D8 , #E0E2E5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card__header h2 {
+    font-size: .6rem;
+    font-weight: normal;
+    line-height: 1.1rem;
+    text-align: center;
+    position: relative;
+    top: -1.1rem;
+    font-family: 'Helvetica', sans-serif;
+}
+.header__dot {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    position: relative;
+    left: 1rem;
+    border-radius: 50%;
+    background-color: rgb(4, 5, 5);
+}
+.d1 {
+    background-image: radial-gradient(#FF6054, #D14F45);
+}
+.d2 {
+    background-image: radial-gradient(#FAC304, #E4B204);
+}
+.d3 {
+    background-image: radial-gradient(#17CB38, #13A72E);
 }
 .projects__card {
     height: 25vh;
-    margin: 1rem;
-    margin-bottom: 0;
-    border-radius: 10px;
+    margin: 0 1rem;
+    border-radius: 0 0 10px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 1rem;
 }
