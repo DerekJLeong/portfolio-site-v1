@@ -59,13 +59,15 @@ ul, li {
 /* Greeting */
 .hello__title {
     font-family: 'Inter UI', sans-serif;
-    font-size: 9.65vw;
+    font-size: 8.9vw;
     font-weight: bold;
     text-align: left;
-    padding-left: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
 }
 #hello {
     margin: 1rem;
+    margin-bottom: 8rem;
     padding: 2rem 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -93,9 +95,10 @@ ul, li {
 .whatICanDo__title {
     font-family: 'Inter UI', sans-serif;
     font-weight: bold;
-    font-size: 7.1vw;
+    font-size: 6.6vw;
     text-align: left;
-    padding-left: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
 }
 .whatICanDo {
     width: 100%;
@@ -149,6 +152,7 @@ ul, li {
 .whatICanDo__dev {
     margin: 1rem;
     margin-top: 0;
+    margin-bottom: 8rem;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-image: linear-gradient(#586273 , #344055);
@@ -209,24 +213,64 @@ ul, li {
 .projects__title {
     font-family: 'Inter UI', sans-serif;
     font-weight: bold;
-    font-size: 9.65vw;
+    font-size: 7.1vw;
     text-align: left;
-    padding-left: 1rem;
+    padding-left: 2rem;
+}
+.projects__intro {
+    font-family: 'Inter UI', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 1rem;
+    padding-left: 2rem;
 }
 .projects {
     display: flex;
     flex-direction: column;
 }
 .projects__card {
+    height: 25vh;
+    margin: 1rem;
+    margin-bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+}
+.projects__card img {
+    width: calc(100vw - 4rem);
+    border-radius: 6px;
 }
 .p1 {
-    background-image: linear-gradient(#FF7675 , #D16160);
+    background-image: url(../img/restuarantProject.png);
+    background-size: contain;
 }
 .p2 {
-    background-image: linear-gradient(#8C7AB5 , #736495);
+    background-image: url(../img/concentrationProject.png);
+    background-size: contain;
 }
 .p3 {
-    background-image: linear-gradient(#6279B8 , #516497);
+    background-image: url(../img/portfolioProject.png);
+    background-size: contain;
+    margin-bottom: 8rem;
+}
+
+.contact__title {
+    font-family: 'Inter UI', sans-serif;
+    font-weight: bold;
+    font-size: 6.6vw;
+    text-align: left;
+    padding-left: 1rem;
+}
+.contact {
+    margin: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: linear-gradient(#6279B8 , #74B9FF);
+    color: whitesmoke;
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 /* Keyframes */
