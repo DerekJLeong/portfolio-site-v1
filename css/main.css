@@ -266,15 +266,11 @@ ul, li {
     background-image: radial-gradient(#17CB38, #13A72E);
 }
 .projects__card {
-    height: 25vh;
+    height: calc(.5625 * (100vw - 2rem));
+    width: calc(100vw - 2rem);
     margin: 0 1rem;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 1rem;
-}
-.projects__card img {
-    width: calc(100vw - 4rem);
-    border-radius: 6px;
 }
 .p1 {
     background-image: url(../img/restuarantProject.png);
@@ -288,6 +284,50 @@ ul, li {
     background-image: url(../img/portfolioProject.png);
     background-size: contain;
     margin-bottom: 8rem;
+}
+.project__details {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    display: none;
+    font-family: 'Helvetica', sans-serif;
+    color: whitesmoke;
+}
+.project__details h3 {
+    position: relative;
+    top: 1.5rem;
+    margin: 0 2rem .5rem 2rem;
+    padding: .5rem;
+    text-align: center;
+    font-weight: normal;
+    background-color: #586273af;
+}
+.project__details ul {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2.5rem 2rem 0 2rem;
+}
+.project__details li {
+    margin: .15rem;
+    padding: .35rem;
+    background-color: #586273af;
+}
+.p1:hover .p1d {
+    background-color: #586273ea;
+    display: block;
+    /* todo add animation */
+}
+.p2:hover .p2d {
+    background-color: #586273a2;
+    display: block;
+    /* todo add animation */
+}
+.p3:hover .p3d {
+    background-color: #586273a2;
+    display: block;
+    /* todo add animation */
 }
 
 .contact__title {
