@@ -81,9 +81,9 @@ ul, li {
     padding: 1rem 2rem 0 2rem;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 550;
-    line-height: 1.4rem;
+    line-height: 1.8rem;
 }
 #hello img {
     grid-column: 1 / 4;
@@ -137,7 +137,7 @@ ul, li {
     padding: 1rem;
     padding-bottom: 0;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: normal;
 }
 #des__content{
@@ -147,6 +147,8 @@ ul, li {
     font-family: 'Helvetica', sans-serif;
     font-weight: normal;
     display: none;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 /* Developer Section */
 .whatICanDo__dev {
@@ -169,7 +171,7 @@ ul, li {
     padding-bottom: 0;
     text-align: center;
     font-family: 'EB Garamond', serif;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: normal;
 }
 #dev__content {
@@ -179,6 +181,8 @@ ul, li {
     font-family: 'Helvetica', sans-serif;
     font-weight: normal;
     text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
 }
 .gearContainer {
     grid-column: 1 / 4;
@@ -219,10 +223,9 @@ ul, li {
 }
 .projects__intro {
     font-family: 'Helvetica', sans-serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: left;
-    padding-top: 1rem;
-    padding-left: 2rem;
+    padding: 1rem 2rem 0 2rem;
 }
 .projects {
     display: flex;
@@ -279,11 +282,11 @@ ul, li {
 .p2 {
     background-image: url(../img/concentrationProject.png);
     background-size: contain;
+    margin-bottom: 8rem;
 }
 .p3 {
     background-image: url(../img/portfolioProject.png);
     background-size: contain;
-    margin-bottom: 8rem;
 }
 .project__details {
     width: 100%;
@@ -296,24 +299,29 @@ ul, li {
 }
 .project__details h3 {
     position: relative;
-    top: 1.5rem;
-    margin: 0 2rem .5rem 2rem;
+    top: 1rem;
+    margin: 0 1rem .5rem 1rem;
     padding: .5rem;
+    margin-bottom: 1rem;
     text-align: center;
     font-weight: normal;
     background-color: #586273af;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .project__details ul {
     width: 100%;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2.5rem 2rem 0 2rem;
+    padding-top: 1rem;
 }
 .project__details li {
     margin: .15rem;
     padding: .35rem;
+    border-radius: 4px;
     background-color: #586273af;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 .p1:hover .p1d {
     background-color: #586273ea;
@@ -361,6 +369,7 @@ ul, li {
     grid-column: 1 / 5;
     padding: 2rem 2rem;
     text-align: center;
+    font-size: 1.3rem;
     line-height: 1.5rem;
 }
 .contact ul {
@@ -379,6 +388,8 @@ ul, li {
     text-align: center;
     color: whitesmoke;
     padding-bottom: 1rem;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.2rem;
 }
 .contact a:link {
     text-decoration: none;
@@ -417,6 +428,7 @@ ul, li {
     font-family: 'Helvetica', sans-serif;
     color: #586273;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    font-size: 1.3rem; 
 }
 .send {
     background-color: #586273;
