@@ -252,7 +252,7 @@ ul, li {
     width: 10px;
     display: inline-block;
     position: relative;
-    left: 1rem;
+    left: .5rem;
     border-radius: 50%;
     background-color: rgb(4, 5, 5);
 }
@@ -292,6 +292,7 @@ ul, li {
     display: none;
     font-family: 'Helvetica', sans-serif;
     color: whitesmoke;
+    border-radius: 0 0 10px 10px;
 }
 .project__details h3 {
     position: relative;
