@@ -124,20 +124,35 @@
     <!-- Contact -->
     <h1 class="contact__title">Get In Contact.</h1>
     <section class="contact">
-        <img src="img/me.png">
+        <img class="profile" src="img/me.png">
         <p class="contact__text">   It would be great to hear from you and to collaborate on a project.<br>
                                     Below are various methods that you can use to contact me with. Cheers!</p>
         <ul>
-            <li>Linkedin</li>
-            <li>GitHub</li>
-            <li>Gmail</li>
+            <li>
+                <a href="https://www.linkedin.com/in/derekjleong/" target="_blank">
+                    <img class="contact__icon" src="img/linkedin.svg">
+                    linkedin.com/in/derekjleong
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/DerekJLeong" target="_blank">
+                    <img class="contact__icon" src="img/github.svg">
+                    github.com/derekjleong
+                </a>
+            </li>
+            <li>
+                <a href="https://mail.google.com/mail" target="_blank">
+                    <img class="contact__icon" src="img/email.svg">
+                    derekjleong@gmail.com
+                </a>
+            </li>
         </ul>
             <form class="contact__form" action="https://formspree.io/derekjleong@gmail.com" method="POST">
                 <input class="form" type="text" name="name" placeholder="Your Name">
                 <input class="form" type="email" name="_replyto" placeholder="Your Email">
                 <textarea class="form" name="message" placeholder="Enter Message"></textarea>
                 <input class="form" type="text" name="_gotcha" style="display:none" />
-                <input class="form" type="submit" value="Send">
+                <input class="form send" type="submit" value="Send">
             </form>
     </section>
 </main>
