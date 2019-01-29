@@ -17,7 +17,7 @@ main {
     overflow: hidden;
     background-color: whitesmoke;
     font-family: 'EB Garamond', serif;
-    font-family: 'Raleway', 'Inter UI', sans-serif;;
+    font-family: 'Raleway', 'Helvetica', sans-serif;;
 }
 
 footer {
@@ -58,8 +58,8 @@ ul, li {
 
 /* Greeting */
 .hello__title {
-    font-family: 'Inter UI', sans-serif;
-    font-size: 8.9vw;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 7.1vw;
     font-weight: bold;
     text-align: left;
     padding-left: 2rem;
@@ -93,7 +93,7 @@ ul, li {
 
 /* What I can do */
 .whatICanDo__title {
-    font-family: 'Inter UI', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     font-size: 6.6vw;
     text-align: left;
@@ -144,7 +144,7 @@ ul, li {
     grid-column: 1 / 4;
     padding: 1rem 2rem 0 2rem;
     text-align: center;
-    font-family: 'Inter UI', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: normal;
     display: none;
 }
@@ -176,7 +176,7 @@ ul, li {
     display: none;
     grid-column: 1 / 4;
     padding: 1rem 2rem 0 2rem;
-    font-family: 'Inter UI', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: normal;
     text-align: center;
 }
@@ -211,14 +211,14 @@ ul, li {
 
 /* Projects */
 .projects__title {
-    font-family: 'Inter UI', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     font-size: 7.1vw;
     text-align: left;
     padding-left: 2rem;
 }
 .projects__intro {
-    font-family: 'Inter UI', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 1rem;
     text-align: left;
     padding-top: 1rem;
@@ -332,24 +332,61 @@ ul, li {
 }
 
 .contact__title {
-    font-family: 'Inter UI', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-weight: bold;
     font-size: 6.6vw;
     text-align: left;
-    padding-left: 1rem;
+    padding: 0 0 1rem 2rem;
 }
 .contact {
     margin: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: linear-gradient(#6279B8 , #74B9FF);
+    background-image: linear-gradient(#6279B8 , #8C9DCB);
     color: whitesmoke;
     padding: 2rem 1rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
 }
+.contact img {
+    height: 15vh;
+    border-radius: 50%;
+    grid-column: 1 / 5;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.contact__text {
+    grid-column: 1 / 5;
+    padding: 1rem 2rem;
+    padding-bottom: 0;
+    text-align: center;
+}
+.contact ul {
+    grid-column: 1 / 5;
+    display: inline-flex;
+    justify-content: center;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+.contact li {
+    padding: 0 .5rem;
 
+}
+.contact__form {
+    grid-column: 1 / 5;
+    display: flex;
+    flex-flow: column;
+    padding: .5rem 1rem 0 1rem;;
+    border: none;
+}
+.form {
+    margin-top: .5rem;
+    padding: .25rem;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Helvetica', sans-serif;
+}
 /* Keyframes */
 @keyframes fliperino {
     0% {
