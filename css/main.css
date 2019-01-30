@@ -76,6 +76,10 @@ a:active {
     font-size: 6vw;
     font-weight: normal;
 }
+.overview a {
+    color: #20242A;
+}
+
 
 /* Greeting */
 .hello__title {
