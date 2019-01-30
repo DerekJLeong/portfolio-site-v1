@@ -16,6 +16,7 @@ main {
     flex-direction: column;
     overflow: hidden;
     background-color: whitesmoke;
+    color: #20242A;
     font-family: 'EB Garamond', serif;
     font-family: 'Raleway', 'Helvetica', sans-serif;;
 }
@@ -29,6 +30,7 @@ footer {
     font-weight: 200;
     text-transform: uppercase;
     background-color: whitesmoke;
+    color: #20242A;
     padding: 1rem;
 }
 
