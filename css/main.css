@@ -28,6 +28,8 @@ footer {
     font-size: .75rem;
     font-weight: 200;
     text-transform: uppercase;
+    background-color: whitesmoke;
+    padding: 1rem;
 }
 
 ul, li {
