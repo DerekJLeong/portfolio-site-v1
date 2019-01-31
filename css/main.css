@@ -481,7 +481,7 @@ a:active {
 
 /* Media Queries */
 /* iPad til iPad Pro sizes */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     #hello, .whatICanDo__des, .whatICanDo__dev, .projects__card, .contact {
         margin-left: 4rem;
         margin-right: 4rem;
@@ -490,6 +490,9 @@ a:active {
     .projects__intro, .contact__title {
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+    .contact__title {
+        margin-top: 8rem;
     }
     .card__header {
         width: calc(100vw - 8rem);
@@ -506,7 +509,11 @@ a:active {
 }
 
 /* iPad Pro and desktop sizes */
-@media screen (min-width: 1028px) {
+@media screen (min-width: 1200px) {
+    main{
+        width: 1200px;
+        /* font-size: 1.2rem; */
+    }
 
 }
 
