@@ -30,8 +30,8 @@ footer {
     font-size: .75rem;
     font-weight: 200;
     text-transform: uppercase;
-    background-color: #67707F;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: #67707F;
     padding: 1rem;
 }
 
@@ -480,16 +480,30 @@ a:active {
 }
 
 /* Media Queries */
+@media screen and (min-width: 500px) and (max-width: 767px) {
+    #hello, .whatICanDo__des, .whatICanDo__dev, .projects__card, .contact {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .contact__title {
+        margin-top: 8rem;
+    }
+    .card__header {
+        width: calc(100vw - 4rem);
+        margin: 0 2rem;
+        margin-top: 4rem;
+}
+    .projects__card {
+        height: calc(.5625 * (100vw - 4rem));
+        width: calc(100vw - 4rem);
+        margin: 0 2rem;
+}
+}
 /* iPad til iPad Pro sizes */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     #hello, .whatICanDo__des, .whatICanDo__dev, .projects__card, .contact {
         margin-left: 4rem;
         margin-right: 4rem;
-    }
-    .hello__title, .whatICanDo__title, .whatICanDo__intro, .projects__title,
-    .projects__intro, .contact__title {
-        margin-left: 3rem;
-        margin-right: 3rem;
     }
     .contact__title {
         margin-top: 8rem;
@@ -498,9 +512,7 @@ a:active {
         width: calc(100vw - 8rem);
         margin: 0 4rem;
         margin-top: 4rem;
-        background-image: linear-gradient(#D1D4D8 , #E0E2E5);
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+}
     .projects__card {
         height: calc(.5625 * (100vw - 8rem));
         width: calc(100vw - 8rem);
@@ -510,10 +522,6 @@ a:active {
 
 /* iPad Pro and desktop sizes */
 @media screen (min-width: 1200px) {
-    main{
-        width: 1200px;
-        /* font-size: 1.2rem; */
-    }
 
 }
 
