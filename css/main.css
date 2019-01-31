@@ -334,7 +334,7 @@ a:active {
     display: none;
     font-family: 'Helvetica', sans-serif;
     color: whitesmoke;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 9px 9px;
 }
 .project__details h3 {
     position: relative;
@@ -362,8 +362,11 @@ a:active {
     background-color: #586273af;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
+.project__details a {
+    color: whitesmoke;
+}
 .p1:hover .p1d {
-    background-color: #586273ea;
+    background-color: #586273a2;
     display: block;
     /* todo add animation */
 }
@@ -475,6 +478,39 @@ a:active {
     color: whitesmoke;
     font-weight: bold;
 }
+
+/* Media Queries */
+/* iPad til iPad Pro sizes */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #hello, .whatICanDo__des, .whatICanDo__dev, .projects__card, .contact {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+    .hello__title, .whatICanDo__title, .whatICanDo__intro, .projects__title,
+    .projects__intro, .contact__title {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    .card__header {
+        width: calc(100vw - 8rem);
+        margin: 0 4rem;
+        margin-top: 4rem;
+        background-image: linear-gradient(#D1D4D8 , #E0E2E5);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .projects__card {
+        height: calc(.5625 * (100vw - 8rem));
+        width: calc(100vw - 8rem);
+        margin: 0 4rem;
+}
+}
+
+/* iPad Pro and desktop sizes */
+@media screen (min-width: 1028px) {
+
+}
+
+
 /* Keyframes */
 @keyframes fliperino {
     0% {
