@@ -1,6 +1,6 @@
 # Derek J Leong Portfolio Site
 
-![Alt text](/img/portfolioproject.png?raw=true )
+![Alt text](/img/portfolioProject.png?raw=true "Optional Title")
 
 ## Introduction
 
