@@ -25,9 +25,9 @@ window.onscroll = function rotateGear () {
 
 // For Design Section Icon Carousel
 var imgArray = [
-  'img/design64x64.png',
-  'img/responsive64x64.png',
-  'img/happiness64x64.png'],
+  'img/design128x128.png',
+  'img/responsive128x128.png',
+  'img/happiness128x128.png'],
   curIndex = 0;
   imgDuration = 5000;
 
