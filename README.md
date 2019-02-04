@@ -1,5 +1,7 @@
 # Derek J Leong Portfolio Site
 
+![Alt text](/img/portfolioProject.png")
+
 ## Introduction
 
 This is a portfolio site for my Front End developer career.
