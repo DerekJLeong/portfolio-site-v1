@@ -78,6 +78,14 @@ a:active {
 .overview a {
     color: #20242A;
 }
+.down__arrow {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    margin-top: 4rem; 
+    background-image: url(../img/down-arrow.svg);
+    background-size: cover;
+}
 
 
 /* Greeting */
