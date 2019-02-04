@@ -19,8 +19,8 @@ for (var i = 0; i < navList.length; i++) {
 
 // For Gear Scroll Animation
 window.onscroll = function rotateGear () {
-    document.querySelector(".gear1").style.transform = "rotate(" + (window.scrollY * 4) + "deg)";
-    document.querySelector(".gear2").style.transform = "rotate(-" + (window.scrollY * 4) + "deg)";
+    document.querySelector(".gear1").style.transform = "rotate(" + (window.scrollY * 1.35) + "deg)";
+    document.querySelector(".gear2").style.transform = "rotate(-" + (window.scrollY * 1.35) + "deg)";
 }
 
 // For Design Section Icon Carousel
