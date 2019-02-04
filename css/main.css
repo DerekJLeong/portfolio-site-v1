@@ -573,7 +573,7 @@ a:active {
         width: calc(100vw - 8rem);
         margin: 0 4rem;
     }
-    #nav__open {
+    #nav__open, #nav__close {
         width: 56px;
         height: 56px;
     }
@@ -616,7 +616,7 @@ a:active {
         flex-flow: row;
         justify-content: space-evenly;
     }
-    #nav__open {
+    #nav__open, #nav__close {
         width: 64px;
         height: 64px;
 }
