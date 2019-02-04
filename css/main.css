@@ -87,7 +87,6 @@ a:active {
     font-weight: bold;
     text-align: center;
     margin: 0 2rem;
-    padding-bottom: 1rem;
 }
 #hello {
     margin: 1rem;
@@ -130,7 +129,6 @@ a:active {
     line-height: 1.6rem;
     text-align: center;
     margin: 0 2rem;
-    padding-bottom: 2rem;
 }
 .whatICanDo {
     width: 100%;
@@ -262,7 +260,6 @@ a:active {
     line-height: 1.6rem;
     text-align: center;
     margin: 0 2rem;
-    padding-bottom: 1rem;
 }
 .projects__intro a {
     color: #20242A;
@@ -542,12 +539,12 @@ a:active {
         width: calc(100vw - 4rem);
         margin: 0 2rem;
         margin-top: 4rem;
-}
+    }
     .projects__card {
         height: calc(.5625 * (100vw - 4rem));
         width: calc(100vw - 4rem);
         margin: 0 2rem;
-}
+    }
 }
 /* iPad til iPad Pro sizes */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -562,35 +559,59 @@ a:active {
         width: calc(100vw - 8rem);
         margin: 0 4rem;
         margin-top: 4rem;
-}
+    }
     .projects__card {
         height: calc(.5625 * (100vw - 8rem));
         width: calc(100vw - 8rem);
         margin: 0 4rem;
-}
+    }
+    #nav__open {
+        width: 56px;
+        height: 56px;
+    }
 }
 
 /* iPad Pro and desktop sizes */
 @media screen and (min-width: 1200px) {
-    #hello, .whatICanDo__des, .whatICanDo__dev, .projects__card,
+    #hello, .whatICanDo__des, .whatICanDo__dev,
     .contact, .whatICanDo__intro, .projects__intro{
         width: 1100px;
         margin-right: auto;
         margin-left: auto; 
     }
     .card__header {
-        width: 1100px;
+        width: calc(.33 * 1200px);
         margin: 0 auto;
         margin-top: 4rem;
     }
     .projects__card {
-        height: calc(.5625 * 1100px);
-        width: 1100px;
-        margin: 0 auto;
+        height: calc(.33 * .5625 * 1200px);
+        width: calc(.33 * 1200px);
+        margin: 0 2rem;
+        /* padding: 0 2rem; */
     }
     .contact__title {
         margin-top: 8rem;
     }
+    .projects {
+        margin: 0 auto;
+        width: 1200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        justify-content: center;
+    }
+    .projects__intro {
+        grid-column: 1 / 4;
+    }
+    .contact ul {
+        flex-flow: row;
+        justify-content: space-evenly;
+    }
+    #nav__open {
+        width: 64px;
+        height: 64px;
+}
 }
 
 
