@@ -1,6 +1,6 @@
 # Derek J Leong Portfolio Site
 
-![Alt text](/img/portfolioProject.png")
+![Alt text](/img/portfolioproject.png")
 
 ## Introduction
 
