@@ -67,6 +67,7 @@ a:active {
 }
 .overview h2 {
     padding: 2rem 1rem;
+    font-family: 'Helvetica', sans-serif;
     font-size: 2.2vh;
     font-weight: normal;
 }
@@ -85,6 +86,11 @@ a:active {
     margin-top: 4rem; 
     background-image: url(../img/down-arrow.svg);
     background-size: cover;
+    transition: width .2s, height .2s;
+}
+.down__arrow:hover {
+    width: 56px;
+    height: 56px;
 }
 
 
@@ -180,7 +186,7 @@ a:active {
     font-size: 1.8rem;
     font-weight: normal;
 }
-#des__content{
+.des__content{
     grid-column: 1 / 4;
     padding: 1rem 2rem 0 2rem;
     text-align: center;
@@ -189,6 +195,11 @@ a:active {
     display: none;
     font-size: 1.2rem;
     line-height: 1.5rem;
+}
+.whatICanDo__des:hover  .show{
+    display: block;
+    /* todo add animation */
+    animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 /* Developer Section */
 .whatICanDo__dev {
@@ -214,7 +225,7 @@ a:active {
     font-size: 1.8rem;
     font-weight: normal;
 }
-#dev__content {
+.dev__content {
     display: none;
     grid-column: 1 / 4;
     padding: 1rem 2rem 0 2rem;
@@ -223,6 +234,11 @@ a:active {
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.5rem;
+}
+.whatICanDo__dev:hover  .show{
+    display: block;
+    /* todo add animation */
+    animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .gearContainer {
     grid-column: 1 / 4;
@@ -237,7 +253,7 @@ a:active {
     margin: 0 2rem;
 }
 .gear {
-background-image: url(../img/gear.svg);
+    background-image: url(../img/gear.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -376,17 +392,17 @@ background-image: url(../img/gear.svg);
 .p1:hover .p1d {
     background-color: #586273a2;
     display: block;
-    /* todo add animation */
+    animation: fadeInFromNone 0.17s cubic-bezier(.66,-0.81,.68,.7), slide-top 0.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
 }
 .p2:hover .p2d {
     background-color: #586273a2;
     display: block;
-    /* todo add animation */
+    animation: fadeInFromNone 0.17s cubic-bezier(.66,-0.81,.68,.7), slide-top 0.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
 }
 .p3:hover .p3d {
     background-color: #586273a2;
     display: block;
-    /* todo add animation */
+    animation: fadeInFromNone 0.17s cubic-bezier(.66,-0.81,.68,.7), slide-top 0.15s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
 }
 
 .contact__title {
@@ -499,6 +515,11 @@ background-image: url(../img/gear.svg);
     right: 1rem;
     border-radius: 50%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    transition: width .2s, height .2s;
+}
+#nav__open:hover {
+    width: 56px;
+    height: 56px;
 }
 #nav__close {
     width: 48px;
@@ -509,6 +530,10 @@ background-image: url(../img/gear.svg);
     top: 1rem;
     right: 1rem;
     border-radius: 50%;
+}
+#nav__close:hover {
+    width: 56px;
+    height: 56px;
 }
 #nav{
     z-index: 1;
@@ -585,6 +610,10 @@ background-image: url(../img/gear.svg);
         width: 56px;
         height: 56px;
     }
+    #nav__open:hover, #nav__close:hover {
+        width: 64px;
+        height: 64px;
+    }
     #hello img {
         width: auto;
     }
@@ -623,7 +652,6 @@ background-image: url(../img/gear.svg);
         height: calc(.33 * .5625 * 1200px);
         width: calc(.33 * 1200px);
         margin: 0 2rem;
-        /* padding: 0 2rem; */
     }
     .contact__title {
         margin-top: 8rem;
@@ -646,6 +674,10 @@ background-image: url(../img/gear.svg);
     #nav__open, #nav__close {
         width: 64px;
         height: 64px;
+    }
+    #nav__open:hover, #nav__close:hover {
+        width: 70px;
+        height: 70px;
     }
     #hello img {
         width: auto;
@@ -690,5 +722,40 @@ background-image: url(../img/gear.svg);
     
     100% {
         transform: perspective(400px);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+@keyframes slide-top {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100px);
+    }
+}
+
+@keyframes fadeInFromNone {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+
+    1% {
+        display: block;
+        opacity: 0;
+    }
+
+    100% {
+        display: block;
+        opacity: 1;
     }
 }
