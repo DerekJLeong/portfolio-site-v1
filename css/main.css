@@ -198,7 +198,6 @@ a:active {
 }
 .whatICanDo__des:hover  .show{
     display: block;
-    /* todo add animation */
     animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 /* Developer Section */
@@ -237,7 +236,6 @@ a:active {
 }
 .whatICanDo__dev:hover  .show{
     display: block;
-    /* todo add animation */
     animation: scale-up-center 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .gearContainer {
@@ -447,8 +445,6 @@ a:active {
     flex-flow: column;
     justify-content: space-around;
     padding: 1rem;
-}
-.contact li {
 }
 .contact a {
     display: flex;
